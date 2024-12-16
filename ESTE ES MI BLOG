@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Blog Personal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Bienvenidos a Mi Blog Personal</h1>
+        <p>¡Aquí encontrarás un poco sobre mí y mis pasiones!</p>
+    </header>
+
+    <nav>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#gustos">Mis Gustos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <main>
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <p>¡Hola! Soy una persona apasionada por la vida, me encanta explorar nuevas actividades y disfrutar de mis momentos libres. A continuación te comparto algunas de las cosas que más me gustan hacer.</p>
+        </section>
+
+        <section id="gustos">
+            <h2>Mis Gustos</h2>
+            <ul>
+                <li><strong>Bailar:</strong> El baile es una de mis grandes pasiones, me encanta moverme al ritmo de la música y expresarme a través del movimiento.</li>
+                <li><strong>Hacer deporte:</strong> Practico varios deportes, desde correr hasta nadar, siempre estoy buscando nuevas maneras de mantenerme activo.</li>
+                <li><strong>Ver películas:</strong> Disfruto mucho del cine, me encanta ver una buena película, especialmente de géneros como acción, comedia y ciencia ficción.</li>
+                <li><strong>Salir a pasear al campo:</strong> Nada me relaja más que pasar tiempo en la naturaleza, dar paseos por el campo y desconectar de la rutina diaria.</li>
+                <li><strong>Viajar:</strong> Me encanta viajar y descubrir nuevos lugares, culturas y comidas. Viajar me permite aprender y expandir mis horizontes.</li>
+            </ul>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Si quieres saber más sobre mí o tienes alguna pregunta, no dudes en contactarme.</p>
+            <p>Email: <a href="mailto:tuemail@example.com">tuemail@example.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mi Blog Personal. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Blog Personal</title>
+    <style>
+        /* Reset básico para márgenes y padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        header {
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+
+        /* Estilos para la imagen */
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid white;
+            margin-top: 20px;
+        }
+
+        nav {
+            background-color: #333;
+            text-align: center;
+            padding: 15px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 15px;
+            font-size: 1.1rem;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #feb47b;
+        }
+
+        main {
+            padding: 40px 20px;
+            background-color: #ffffff;
+            max-width: 1200px;
+            margin: 0 auto;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-size: 2rem;
+            color: #ff7e5f;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 1.1rem;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        ul li {
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer a {
+            color: #feb47b;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Bienvenidos a Mi Blog Personal</h1>
+        <p>Descubre más sobre mí, mis pasatiempos y mis aventuras.</p>
+        <!-- Aquí puedes poner la ruta de tu imagen -->
+        <img src="foto_perfil.jpg" alt="Mi foto" class="profile-img">
+    </header>
+
+    <nav>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#gustos">Mis Gustos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <main>
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <p>¡Hola! Soy una persona entusiasta de la vida. Me encanta disfrutar de cada momento libre y explorar nuevas experiencias. A lo largo de este blog compartiré un poco sobre lo que me apasiona y mis intereses.</p>
+        </section>
+
+        <section id="gustos">
+            <h2>Mis Gustos</h2>
+            <ul>
+                <li><strong>Bailar:</strong> El baile es una de mis pasiones. No hay nada mejor que dejarse llevar por la música y moverse al ritmo.</li>
+                <li><strong>Hacer deporte:</strong> Soy muy activa y me encanta practicar deportes. Ya sea correr, nadar o hacer yoga, siempre estoy en movimiento.</li>
+                <li><strong>Ver películas:</strong> Me encanta sumergirme en historias a través del cine. Me gustan los diferentes géneros, desde dramas hasta comedias y ciencia ficción.</li>
+                <li><strong>Salir a pasear al campo:</strong> Escapar de la ciudad y disfrutar de la naturaleza es algo que me llena de paz y energía.</li>
+                <li><strong>Viajar:</strong> Explorar nuevos destinos, conocer otras culturas y aprender de cada lugar es una de mis mayores pasiones.</li>
+            </ul>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Si tienes alguna pregunta o quieres saber más sobre mí, ¡no dudes en contactarme!</p>
+            <p>Email: <a href="mailto:tuemail@example.com">tuemail@example.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mi Blog Personal. Todos los derechos reservados.</p>
+        <p>Hecho con ❤️. <a href="#">Visita mi perfil en GitHub</a></p>
+    </footer>
+
+</body>
+</html>
